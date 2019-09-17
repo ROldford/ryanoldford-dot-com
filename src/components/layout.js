@@ -52,13 +52,19 @@ const Layout = ({ children }) => (
 						<Navigator>
 							<Logo>
 								<h5>{data.site.siteMetadata.title} <SocialList><span>
-								<a target="_blank" href="https://github.com/ROldford">
+								<a target="_blank"
+									rel="noopener noreferrer"
+									href="https://github.com/ROldford">
 									<span className="fab fa-github"></span>
 								</a></span> <span>
-								<a target="_blank" href="https://www.linkedin.com/in/ryan-oldford-b95b4113/">
+								<a target="_blank"
+									rel="noopener noreferrer"
+									href="https://www.linkedin.com/in/ryan-oldford-b95b4113/">
 									<span className="fab fa-linkedin"></span>
 								</a></span> <span>
-								<a target="_blank" href="https://twitter.com/ryan_oldford">
+								<a target="_blank"
+									rel="noopener noreferrer"
+									href="https://twitter.com/ryan_oldford">
 									<span className="fab fa-twitter"></span>
 								</a></span>
 								</SocialList></h5>
