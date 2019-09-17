@@ -8,30 +8,26 @@ export default ({ data }) => {
 		<Layout>
 			<MainPost>
 				<header>
-					<Title>Single Page</Title>
+					<Title>About Ryan Oldford</Title>
 				</header>
 				<div
 					className={"content"}>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					This is the second file.
+					<br />
+					<p>
+						Ryan is passionate about designing software that makes education
+						easier. He is currently living in Vancouver, BC, and attending the
+						Integrated Computer Science program at UBC.
 					</p>
-					<h1>h1 title</h1>
-					<h2>h2 title</h2>
-					<h3>h3 title</h3>
-					<h4>h4 title</h4>
-					<h5>h5 title</h5>
-					<span>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					This is the second file.</span>
+					<p>
+						Ryan has always had a passion for science, and parlayed that into a
+						decade of teaching International Baccalaureate sciences at schools
+						in Beijing and Thailand.
+					</p>
+					<p>
+						He has seen software that helps teachers and students, and a lot
+						that doesn't, and hopes to use his education and computer science
+						knowledge together to make teaching and learning more effective.
+					</p>
 				</div>
 			</MainPost>
 		</Layout>
