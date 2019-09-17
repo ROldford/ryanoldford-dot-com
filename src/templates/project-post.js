@@ -1,6 +1,7 @@
 import React from "react";
-import { graphql, Link } from "gatsby";
+import { graphql } from "gatsby";
 import Layout from "../components/layout";
+import Img from "gatsby-image";
 import { Header, MainPost, PreTitle, Title,Subtitle, Tags, Date, Stats, SocialShare } from "../components/style/emo-post";
 
 export default ({ data }) => {
@@ -12,6 +13,7 @@ export default ({ data }) => {
           <PreTitle>{post.frontmatter.category}</PreTitle>
           <Title>{post.frontmatter.title}</Title>
 	        <Subtitle>{post.frontmatter.subtitle}</Subtitle>
+          <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
           <p><strong>Project</strong> <a href={post.frontmatter.project} target={"_blank"}>{post.frontmatter.project}</a></p>
           <p><strong>Demo</strong> <a href={post.frontmatter.demo} target={"_blank"}>{post.frontmatter.demo}</a></p>
         </Header>
@@ -53,6 +55,27 @@ export const query = graphql`
         project
         demo
         date(formatString: "DD MMMM, YYYY")
+        featuredImage {
+					childImageSharp {
+						fluid(maxWidth: 500, maxHeight: 250, cropFocus: CENTER) {
+							base64
+							tracedSVG
+							aspectRatio
+							src
+							srcSet
+							srcWebp
+							srcSetWebp
+							sizes
+							originalImg
+							originalName
+							presentationWidth
+							presentationHeight
+						}
+					}
+				}
+      }
+      fields {
+        slug
       }
     }
   }
