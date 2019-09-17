@@ -1,16 +1,23 @@
 ---
-title: "Lorem Ipsum Dolor"
-subtitle: "sit amet consectetur"
-date: "2018-11-27"
-update: "2018-11-27"
-tags: ["book", "singer", "lorem"]
-category: "Narrative"
-project: "https://google.com"
-demo: "https://google.com"
-featuredImage: "../../img/post/brandi-redd.jpg"
+title: "canadianborderpatrol.com"
+subtitle: "Podcast Website"
+date: "2019-04-13"
+update: "2019-08-10"
+tags: ["javascript", "react", "gatsby", "podcast"]
+category: "Webpage"
+project: "https://github.com/rheajt/canadianborderpatrol"
+demo: "https://canadianborderpatrol.com"
+featuredImage: "../../img/project/canadianborderpatrol-dot-com.png"
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis leo ut tellus eleifend elementum. Nulla justo lectus, convallis hendrerit luctus non, condimentum non mi. Nam varius nulla vel imperdiet semper. Donec in sollicitudin nulla. Pellentesque et tortor facilisis, volutpat ex vitae, bibendum diam. Donec metus arcu, pretium eget congue id, tempor id ipsum. Duis nibh quam, suscipit vel justo non, commodo ornare tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec massa ante, tempor eget pharetra vehicula, pellentesque non ante.
 
-Suspendisse facilisis id est id porttitor. Morbi at tincidunt velit, eu dignissim risus. Vivamus non bibendum ligula. Aliquam ac metus bibendum, rutrum nulla ac, pharetra turpis. Cras ut vestibulum leo. Quisque ex leo, placerat sit amet pellentesque pulvinar, pretium sed leo. Donec sed lectus elementum, faucibus ex viverra, lobortis orci. Praesent volutpat justo non mollis suscipit. Morbi volutpat molestie elit vitae condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent quis tortor ante. Mauris lobortis semper nunc sed ullamcorper.
+With my podcasting partner Jordan Rhea ([rheajt](https://github.com/rheajt) on Github), I developed a site for our podcast, the Canadian Border Patrol.
 
-Etiam vel diam congue, scelerisque metus sit amet, tincidunt tellus. Vivamus viverra tincidunt lorem nec ultricies. Sed at velit tellus. Nullam et vehicula lectus. Nullam viverra sollicitudin nunc vitae tincidunt. Suspendisse eu erat dignissim nisl efficitur commodo ut eu nisi. Sed pulvinar dolor sit amet orci varius, quis malesuada justo mollis. Nam elementum erat at interdum porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus dapibus ultrices nibh, sed bibendum magna semper ut. Aliquam sed purus iaculis, dapibus ligula sit amet, congue magna.
+While I had used React before, this was my first experience using Gatsby (or any SSG actually). I took on 2 main parts of the project:
+1. UI design
+2. RSS feed configuration
+For the UI design, I researched the possible styling options (of which there are many), tested a few, and eventually settled on the Rebass framework. Rebass was able to make much of the responsive design easier, and I could fall back on styled-components for more control.
+RSS feed configuration proved difficult due to confusing documentation and differences between podcast services. The documentation was not fully clear on how to add and format iTunes namespace tags, so a lot of trial and error was needed. On the podcast services side, I discovered that they are notoriously inconsistent with accepted HTML formatting in show notes. I decided on sending a very plain text excerpt per episode and having detailed show notes be limited to the site itself, and formatted my episode Markdown files accordingly.
+
+---
+
+**Update**: I did some more RSS configuration to match iTunes new requirements for podcast episode numbers.

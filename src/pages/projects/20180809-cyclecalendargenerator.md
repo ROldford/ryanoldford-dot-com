@@ -1,16 +1,23 @@
 ---
-title: "Lorem Ipsum Dolor"
-subtitle: "sit amet consectetur"
-date: "2018-11-27"
-update: "2018-11-27"
-tags: ["book", "singer", "lorem"]
-category: "Narrative"
-project: "https://google.com"
-demo: "https://google.com"
-featuredImage: "../../img/post/cody-davis.jpg"
+title: "Cycle Calendar Generator"
+subtitle: "Makes n-day schedule iCal files"
+date: "2018-08-09"
+update: "2018-10-19"
+tags: ["python"]
+category: "Script"
+project: "https://github.com/ROldford/cycle_calendar_generator"
+demo: "https://pypi.org/project/cycle-calendar-generator/"
+featuredImage: "../../img/project/cycle-calendar-generator.png"
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis leo ut tellus eleifend elementum. Nulla justo lectus, convallis hendrerit luctus non, condimentum non mi. Nam varius nulla vel imperdiet semper. Donec in sollicitudin nulla. Pellentesque et tortor facilisis, volutpat ex vitae, bibendum diam. Donec metus arcu, pretium eget congue id, tempor id ipsum. Duis nibh quam, suscipit vel justo non, commodo ornare tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec massa ante, tempor eget pharetra vehicula, pellentesque non ante.
 
-Suspendisse facilisis id est id porttitor. Morbi at tincidunt velit, eu dignissim risus. Vivamus non bibendum ligula. Aliquam ac metus bibendum, rutrum nulla ac, pharetra turpis. Cras ut vestibulum leo. Quisque ex leo, placerat sit amet pellentesque pulvinar, pretium sed leo. Donec sed lectus elementum, faucibus ex viverra, lobortis orci. Praesent volutpat justo non mollis suscipit. Morbi volutpat molestie elit vitae condimentum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent quis tortor ante. Mauris lobortis semper nunc sed ullamcorper.
+At my last school, we had a problem. Our teaching schedules were on a 6-day cycle, but there's no calendar software that does "repeat every 6 weekdays". To solve this, I built this script.
 
-Etiam vel diam congue, scelerisque metus sit amet, tincidunt tellus. Vivamus viverra tincidunt lorem nec ultricies. Sed at velit tellus. Nullam et vehicula lectus. Nullam viverra sollicitudin nunc vitae tincidunt. Suspendisse eu erat dignissim nisl efficitur commodo ut eu nisi. Sed pulvinar dolor sit amet orci varius, quis malesuada justo mollis. Nam elementum erat at interdum porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus dapibus ultrices nibh, sed bibendum magna semper ut. Aliquam sed purus iaculis, dapibus ligula sit amet, congue magna.
+To ensure that this worked properly for everyone, I used every software design best practice I could find. I used TDD processes and CI (via Travis) for the first time, and it seemed to work well with my testing group of other science teachers.
+
+The script simply looks for a folder of formatted Excel files. One stores the general configuration for the school (i.e. how many days in the cycle, exact calendar dates of each cycle day, etc.), while the rest hold teacher schedules. The excel files are parsed using [openpyxl](https://bitbucket.org/openpyxl/openpyxl/src), then an iCal file is generated using [ics](https://github.com/C4ptainCrunch/ics.py).
+
+I tested it with several other science teachers, and the script looked promising. However, by the time I felt ready to deploy it in the school, I learned that we would be implementing PowerSchool, so this script wouldn't be needed. I also realized that I didn't have the time to write enough documentation for my colleagues. However, I'm proud enough of this to deploy it to the PyPI repository.
+
+---
+
+**Update**: I was able to package this as a command line app, so it's much easier to run.
