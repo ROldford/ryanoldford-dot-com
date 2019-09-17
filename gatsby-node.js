@@ -33,10 +33,10 @@ exports.createPages = ({ graphql, actions }) => {
       }
     `).then(result => {
       result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-        if (node.frontmatter.category === "2ndcat") {
+        if (node.frontmatter.category === "blog") {
           createPage({
             path: node.fields.slug,
-            component: path.resolve(`./src/templates/2ndcat-post.js`),
+            component: path.resolve(`./src/templates/blog-post.js`),
             context: {
               // Data passed to context is available
               // in page queries as GraphQL variables.
@@ -46,7 +46,7 @@ exports.createPages = ({ graphql, actions }) => {
         } else {
           createPage({
             path: node.fields.slug,
-            component: path.resolve(`./src/templates/blog-post.js`),
+            component: path.resolve(`./src/templates/project-post.js`),
             context: {
               slug: node.fields.slug
             }
