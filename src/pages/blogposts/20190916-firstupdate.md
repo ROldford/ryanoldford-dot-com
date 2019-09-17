@@ -1,6 +1,8 @@
 ---
 title: "First Update"
 date: "2019-09-17T04:56:32Z"
+update: "2019-09-17T04:56:32Z"
+tags: ["update"]
 category: "blog"
 featuredImage: "../../img/post/ubc-fountain.jpg"
 ---
