@@ -1,7 +1,7 @@
 ---
 title: "Tincidunt lorem nec"
 date: "2018-08-27"
-category: "2ndcat"
+category: "blog"
 featuredImage: "../../img/post/beka-tasmagambet.jpg"
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer quis leo ut tellus eleifend elementum. Nulla justo lectus, convallis hendrerit luctus non, condimentum non mi. Nam varius nulla vel imperdiet semper. Donec in sollicitudin nulla. Pellentesque et tortor facilisis, volutpat ex vitae, bibendum diam. Donec metus arcu, pretium eget congue id, tempor id ipsum. Duis nibh quam, suscipit vel justo non, commodo ornare tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec massa ante, tempor eget pharetra vehicula, pellentesque non ante.

@@ -47,7 +47,7 @@ export const query = graphql`
   query {
     allMarkdownRemark(
       sort: { fields: [frontmatter___update], order: DESC }
-      filter: { frontmatter: { category: { ne: "2ndcat" } } }
+      filter: { frontmatter: { category: { ne: "blog" } } }
     ) {
       edges {
         node {
