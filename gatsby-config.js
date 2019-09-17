@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Fine`,
-    subtitle: `Gatsby`,
-    description: `Discover the new Gatsby Fine starter library `,
-    keywords: `code, programming, gatsby, tutorial, starter, library`,
+    title: `RyanOldford.com`,
+    subtitle: `Portfolio`,
+    description: `Former teacher, current student, future developer`,
+    keywords: `code, programming, javascript, python, react, redux, gatsby`,
     siteUrl: `https://gatsby-starter-fine.netlify.com`
   },
   plugins: [
