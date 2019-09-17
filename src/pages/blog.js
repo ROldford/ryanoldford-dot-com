@@ -50,7 +50,7 @@ export const query = graphql`
             category
             featuredImage {
               childImageSharp {
-                fluid(maxWidth: 500, maxHeight: 500) {
+                fluid(maxWidth: 500, maxHeight: 250, cropFocus: CENTER) {
                   base64
                   tracedSVG
                   aspectRatio
