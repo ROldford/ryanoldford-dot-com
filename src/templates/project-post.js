@@ -29,14 +29,9 @@ export default ({ data }) => {
           <Stats>
             <SocialShare>
               <li className={"social-icon"}>
-                <Link to="#">
+                <a href={`http://www.twitter.com/share?url=http://www.ryanoldford.com${post.fields.slug}`}>
                   <span className={"fab fa-twitter"}> </span>
-                </Link>
-              </li>
-              <li className={"social-icon"}>
-                <Link to="#">
-                  <span className={"fab fa-facebook"}> </span>
-                </Link>
+                </a>
               </li>
             </SocialShare>
           </Stats>
