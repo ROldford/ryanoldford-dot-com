@@ -15,7 +15,7 @@ import { Helmet } from "react-helmet"
 
 const Layout = ({ children }) => (
 	<StaticQuery
-	query = { 
+	query = {
 		graphql`
 		query {
 			site {
@@ -52,17 +52,23 @@ const Layout = ({ children }) => (
 						<Navigator>
 							<Logo>
 								<h5>{data.site.siteMetadata.title} <SocialList><span>
-								<a target="_blank" href="#"><span className="fab fa-twitter"></span></a></span> <span>
-								<a target="_blank" href="#"><span className="fab fa-instagram"></span></a></span> <span>
-								<a target="_blank" href="#"><span className="fab fa-github"></span></a></span>
+								<a target="_blank" href="https://github.com/ROldford">
+									<span className="fab fa-github"></span>
+								</a></span> <span>
+								<a target="_blank" href="https://www.linkedin.com/in/ryan-oldford-b95b4113/">
+									<span className="fab fa-linkedin"></span>
+								</a></span> <span>
+								<a target="_blank" href="https://twitter.com/ryan_oldford">
+									<span className="fab fa-twitter"></span>
+								</a></span>
 								</SocialList></h5>
 								<p>{data.site.siteMetadata.description}</p>
 							</Logo>
 							<nav>
 								<LinksList>
-									<li><Link to={`/single-page/`} activeClassName="active">Single Page</Link></li>
-									<li><Link to={`/`} activeClassName="active">Main Category</Link></li>
-									<li><Link to={`/cat2/`} activeClassName="active">2nd Category</Link></li>
+									<li><Link to={`/about-me/`} activeClassName="active">About Me</Link></li>
+									<li><Link to={`/`} activeClassName="active">Projects</Link></li>
+									<li><Link to={`/blog/`} activeClassName="active">Blog</Link></li>
 								</LinksList>
 							</nav>
 						</Navigator>
