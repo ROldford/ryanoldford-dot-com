@@ -4,7 +4,7 @@ module.exports = {
     subtitle: `Portfolio`,
     description: `Former teacher, current student, future developer`,
     keywords: `code, programming, javascript, python, react, redux, gatsby`,
-    siteUrl: `https://gatsby-starter-fine.netlify.com`
+    siteUrl: `https://ryanoldford.com`
   },
   plugins: [
     `gatsby-plugin-jss`,
