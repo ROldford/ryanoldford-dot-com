@@ -1,12 +1,7 @@
-# gatsby-starter-fine
-Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/) site.
-
-## Elements
-- 404
-- Sitemap Url ({siteUrl}/sitemap.xml)
-- Multi Category
-- Remark Images
-- React Helmet
+# ryanoldford-dot-com
+Personal site powered by [Gatsby](https://www.gatsbyjs.org/) using 
+[gatsby-starter-fine starter](
+https://www.gatsbyjs.org/starters/toboko/gatsby-starter-fine/).
 
 ## Running in test
 `npm start`
@@ -14,7 +9,25 @@ Starter with the bare essentials needed for a [Gatsby](https://www.gatsbyjs.org/
 ## Running in development
 `gatsby develop`
 or
-`npm run-script develop`
+`npm run develop`
 
 ## Running in production
-`npm run-script build `
+`npm run build `
+
+## Deployment to GitHub Pages
+`npm run deploy`
+
+## Adding content
+* Filenames should follow `<datestamp>-<pagename>.md` format.
+* All pages should have a representative photo
+* New projects:
+    * Stored in `/src/pages/projects` 
+    * Photo in `src/img/project`
+    * Follow format of existing projects, especially header data
+        * Keep update placeholder in header, 
+            but remove update section until needed
+* New posts:
+    * Stored in `/src/pages/blogposts`
+    * Photo in `src/img/post`
+    * Follow format of existing posts, especially header data
+ 
