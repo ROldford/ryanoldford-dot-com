@@ -1,10 +1,10 @@
 ---
 title: "January Update"
-date: ""
+date: "2020-02-14T23:19:10Z"
 update: ""
 tags: ["update"]
 category: "blog"
-featuredImage: "../../img/post/christmas-card.jpg"
+featuredImage: "../../img/post/snowmageddon.jpg"
 ---
 I wanted to get this out on time, I really did, but basically everything
 happened at the beginning of February. I've only just gotten out from
