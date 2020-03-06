@@ -1,6 +1,8 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
+import CodeLink from "../components/code-link";
+import DemoLink from "../components/demo-link";
 import Img from "gatsby-image";
 import { Header, MainPost, PreTitle, Title,Subtitle, Tags, Date, Stats, SocialShare } from "../components/style/emo-post";
 
@@ -14,8 +16,10 @@ export default ({ data }) => {
           <Title>{post.frontmatter.title}</Title>
 	        <Subtitle>{post.frontmatter.subtitle}</Subtitle>
           <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
-          <p><strong>Project</strong> <a href={post.frontmatter.project} target={"_blank"}>{post.frontmatter.project}</a></p>
-          <p><strong>Demo</strong> <a href={post.frontmatter.demo} target={"_blank"}>{post.frontmatter.demo}</a></p>
+          <div>
+            <CodeLink>{post.frontmatter.project}</CodeLink>
+            <DemoLink>{post.frontmatter.demo}</DemoLink>
+          </div>
         </Header>
         <div
           className={"content"}

@@ -242,3 +242,17 @@ export const Comments = ({ children }) => (
     {children}
   </div>
 );
+
+export const BorderedElement = ({ children }) => (
+  <div
+    css={`
+      border: 2px solid #808080;
+      border-radius: 8px;
+      padding: 3px;
+      margin: 5px 5px 5px 0px;
+      display: inline-block;
+    `}
+  >
+    {children}
+  </div>
+);
