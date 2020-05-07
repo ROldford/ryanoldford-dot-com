@@ -12,6 +12,7 @@ module.exports = {
     `gatsby-disable-404`,
     `gatsby-plugin-react-helmet`,
     `gatsby-remark-copy-linked-files`,
+    `gatsby-plugin-catch-links`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -53,7 +54,7 @@ module.exports = {
             }
           },
           "gatsby-remark-embed-soundcloud",
-	        "gatsby-remark-copy-linked-files"
+          "gatsby-remark-copy-linked-files"
         ]
       }
     },
