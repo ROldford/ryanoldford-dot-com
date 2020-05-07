@@ -33,7 +33,7 @@ needed. I also realized that I didn't have the time to write enough
 documentation for my colleagues. However, I'm proud enough of this to deploy it
 to the PyPI repository.
 
-(Header image by [Bruno /Germany](https://tinyurl.com/y8mgjsu5) from
+(Header image by [Bru-nO](https://tinyurl.com/y8mgjsu5) from
 [Pixabay](https://tinyurl.com/yb3m2vwr))
 
 ---
