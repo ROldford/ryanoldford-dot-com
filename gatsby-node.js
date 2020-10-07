@@ -43,6 +43,10 @@ exports.createPages = ({ graphql, actions }) => {
               slug: node.fields.slug
             }
           });
+        // } else if (node.frontmatter.category === "employment") {
+        //   createPage({
+        //     path: node.fields.slug
+        //   })
         } else {
           createPage({
             path: node.fields.slug,

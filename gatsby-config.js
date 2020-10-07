@@ -3,6 +3,9 @@ module.exports = {
     title: `RyanOldford.com`,
     subtitle: `Portfolio`,
     description: `Former teacher, current student, future developer`,
+    description_l1: `Former teacher, `,
+    description_l2: `current student, `,
+    description_l3: `future developer`,
     keywords: `code, programming, javascript, python, react, redux, gatsby`,
     siteUrl: `https://ryanoldford.com`
   },
