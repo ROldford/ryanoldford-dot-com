@@ -52,6 +52,7 @@ export const Logo = styled.div`
 
   p {
     display: none;
+    padding: 5px 0px;
   }
 
   ${mwS.medium(css`
@@ -61,7 +62,6 @@ export const Logo = styled.div`
 	    text-transform: uppercase;
 	    letter-spacing: .05em;
 	    margin-bottom: 0.5em;
-      text-align: center;
 	    display: block;
 	  }
 	  p {
