@@ -73,6 +73,7 @@ const Layout = ({ children }) => (
 							<nav>
 								<LinksList>
 									<li><Link to={`/about-me/`} activeClassName="active">About Me</Link></li>
+									<li><Link to={`/employment/`} activeClassName="active">Employment</Link></li>
 									<li><Link to={`/`} activeClassName="active">Projects</Link></li>
 									<li><Link to={`/blog/`} activeClassName="active">Blog</Link></li>
 								</LinksList>
