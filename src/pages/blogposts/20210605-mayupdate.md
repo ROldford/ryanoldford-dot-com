@@ -20,3 +20,6 @@ Side story: at the clinic, after waiting to get cleared at the door, they had ma
 There were 2 volunteers, one running entry into this waiting space, and another running the exit and moving people onwards. After I was sent to my seat, I noticed that the entry staff would direct people so they filled up my column, then the next and so on. I then checked out how people were being moved onwards, and realized that there was a contiguous set of people ahead of me, and that the exit volunteer would always call on the person at the head. And that's when I realized that this was a [circular buffer](https://en.wikipedia.org/wiki/Circular_buffer), and _that's_ when I realized I think about CS too much.
 
 That's it for this update. See you next time! 
+  
+(Photo by [Marisol Benitez](https://unsplash.com/@marisolbenitez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
+on [Unsplash](https://unsplash.com/s/photos/marisol-benitez-vaccine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText))
