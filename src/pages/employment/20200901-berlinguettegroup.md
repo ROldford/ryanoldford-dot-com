@@ -2,7 +2,7 @@
 title: "Berlinguette Group"
 subtitle: "Ada Project - Python developer"
 date: "2020-09-01"
-update: "2020-09-01"
+update: "2021-08-19"
 tags: ["python", "hardware", "chemistry"]
 category: "Co-op"
 project: ""
@@ -17,13 +17,19 @@ One key project in the Group is [Project Ada](http://www.projectada.ca/), which 
 As a Python developer, I am responsible for leading various software development projects in Project Ada, focusing on:
  - interfacing with hardware components using existing libraries
  - processing signals from those components
+ - developing and testing a user interface using [PyQt5](https://riverbankcomputing.com/software/pyqt/)
+ - integrating Bayesian optimization (based on [Facebook Ax](https://ax.dev/)) into the system
  - improving functionality and software design of interface libraries
  - maintaining code repositories
+ - building project documentation using [Sphinx](https://www.sphinx-doc.org/)
  
 As a team member, I am responsible for 
  - properly documenting all experimental results
+ - data analysis using [pandas](https://pandas.pydata.org/) and [Scikit Learn](https://scikit-learn.org/stable/)
+ - data visualization using [plotly](https://plotly.com/)
  - communication with the Project Ada team in regular meetings
  - attending regular Berlinguette Group meetings
  - providing regular updates to outside partners
+ - contributing to final project report
  
  (Header image by [UBC Quantum Matter Institute](https://qmi.ubc.ca/), found [here](https://twitter.com/QMI_UBC/status/1067893708962488321?s=20))
