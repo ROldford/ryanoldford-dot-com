@@ -1,8 +1,8 @@
 ---
 title: "Fast Friends"
 subtitle: "UBC BCS Hackathon 2021"
-date: "2020-01-30"
-update: "2020-01-30"
+date: "2021-04-11"
+update: "2021-04-11"
 tags: ["javascript", "react", "css", "webapp"]
 category: "Hackathon"
 project: "https://github.com/ROldford/fast-friends"

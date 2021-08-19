@@ -1,8 +1,8 @@
 ---
-title: "https://github.com/ROldford/CPSC304-Regional-Vaccine-Manager"
+title: "Regional Vaccine Manager"
 subtitle: "Vaccine management database"
-date: "2018-01-24"
-update: "2019-01-02"
+date: "2021-06-16"
+update: "2021-06-16"
 tags: ["java", "swing", "oracle-db"]
 category: "Academic"
 project: "https://github.com/ROldford/CPSC304-Regional-Vaccine-Manager"
