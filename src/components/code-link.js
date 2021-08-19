@@ -3,7 +3,7 @@ import {BorderedElement} from "./style/emo-post";
 
 const CodeLink = ({ children }) => {
     if (children !== "") {
-        return <BorderedElement><a href={children} target={"_blank"}>Code Repo</a></BorderedElement>;
+        return <BorderedElement><a href={children} target={"_blank"} rel={"noreferrer"}>Code Repo</a></BorderedElement>;
     } else {
         return ""
     }
