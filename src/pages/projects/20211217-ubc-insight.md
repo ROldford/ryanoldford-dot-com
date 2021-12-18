@@ -7,7 +7,7 @@ tags: ["typescript", "express"]
 category: "Academic"
 project: ""
 demo: ""
-featuredImage: "../../img/project/cpsc-310-insight.jpg"
+featuredImage: "../../img/project/cpsc-310-insight.png"
 ---
 
 For CPSC 310, we were tasked with building a webapp to explore datasets of UBC course history and rooms information. This work was carried out with my team partner, [Thomas Cowan](https://github.com/tccw). 
@@ -16,4 +16,4 @@ We divided up work responsibilities, and I focused on dataset manipulation (i.e.
 
 While I have developed in Javascript before, this was my first experience with Typescript, as well as the use of Promises in webapp development. This was also my first serious work with Express servers and API development. I've developed a good understanding of these concepts, and intend to use them as I develop my personal projects further.
 
-(This class project cannot be publicly released, but can be made available to view on request.)
+(This academic project cannot be publicly released, but can be made available to view on request.)
