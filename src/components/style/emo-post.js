@@ -19,9 +19,10 @@ export const MainPost = styled.article`
   max-width: 100%;
   width: auto;
   padding: 50px 20px 30px 20px;
-  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   border: 1px solid #eee;
   background: #fff;
+
   & div.content > p,
   & div.content > ol,
   & div.content > ul,
@@ -31,34 +32,43 @@ export const MainPost = styled.article`
     text-align: left;
     margin: 0 20px;
   }
+
   & div.content > iframe {
     margin: 30px 20px;
   }
+
   & div.content > p a iframe {
     margin: 30px 0;
   }
+
   & div.content > span {
     margin: 30px 0;
   }
+
   & div.content p > a {
     text-decoration: underline;
+    color: darkblue;
   }
+
   & div.content > ul,
   & div.content > ol {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 40px;
   }
+
   & div.content > img {
     max-width: 89%;
-    float: rigth;
+    float: right;
   }
+
   ${mwS.medium(css`
     max-width: 97%;
     padding: 50px 50px 30px 50px;
   `)}
   ${mwS.large(css`
     max-width: 950px;
+
     & div.content > img {
       max-width: 490px;
     }
@@ -191,7 +201,7 @@ export const Comments = ({ children }) => (
     css={`
       margin: 30px 0;
       padding: 30px;
-      box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
       border: 1px solid #ddd;
       background: #fff;
     `}
@@ -249,7 +259,7 @@ export const BorderedElement = ({ children }) => (
       border: 2px solid #808080;
       border-radius: 8px;
       padding: 3px;
-      margin: 5px 5px 5px 0px;
+      margin: 5px 5px 5px 0;
       display: inline-block;
     `}
   >
