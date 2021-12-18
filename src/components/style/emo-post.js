@@ -51,7 +51,7 @@ export const MainPost = styled.article`
   }
   & div.content > img {
     max-width: 89%;
-    float: rigth;
+    float: right;
   }
   ${mwS.medium(css`
     max-width: 97%;
