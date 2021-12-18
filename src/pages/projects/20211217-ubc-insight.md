@@ -10,7 +10,7 @@ demo: ""
 featuredImage: "../../img/project/cpsc-310-insight.jpg"
 ---
 
-For CPSC 310, we were tasked with building a webapp to explore datasets of UBC course history and rooms information. This work was carried out with my team partner, Thomas Cowan. 
+For CPSC 310, we were tasked with building a webapp to explore datasets of UBC course history and rooms information. This work was carried out with my team partner, [Thomas Cowan](https://github.com/tccw). 
 
 We divided up work responsibilities, and I focused on dataset manipulation (i.e. addition, deletion, persistence) and backend server endpoints, while Thomas focused on the query language and the React frontend. We also developed unit tests for our particular part of the codebase, performed code reviews on each other's work in pull requests, developed user stories for our final frontend implementation, and reviewed our progress in weekly scrum meetings with an assigned teaching assistant. Thomas and I worked together very well, and were very successful, achieving a 99.6% grade overall.
 
