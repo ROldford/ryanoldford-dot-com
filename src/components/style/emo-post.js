@@ -42,6 +42,7 @@ export const MainPost = styled.article`
   }
   & div.content p > a {
     text-decoration: underline;
+    color: darkblue;
   }
   & div.content > ul,
   & div.content > ol {
