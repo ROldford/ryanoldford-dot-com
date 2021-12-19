@@ -2,7 +2,7 @@
 title: "Decryptoquote"
 subtitle: "Decode cryptoquote puzzles"
 date: "2019-07-16"
-update: "2020-02-18"
+update: "2021-08-10"
 tags: ["python"]
 category: "Personal"
 project: ""
@@ -45,3 +45,5 @@ shell script to make it work on my machine, as well as generate the desired
 corpus files. My next step is to test the solver with the new corpus, checking
 for accuracy and speed. I may work on storing the corpus in a different data
 structure if speed continues to be an issue.
+
+**Update**: I discovered the ["word patterns" strategy](https://inventwithpython.com/hacking/chapter18.html) from [Invent with Python](https://inventwithpython.com/), and applied it to this project. I've had some good results with it, but I've discovered that some puzzles can have multiple solutions using real English words, so I will need to update the code to produce all solutions.
