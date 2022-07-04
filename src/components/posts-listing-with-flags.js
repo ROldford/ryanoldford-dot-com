@@ -11,7 +11,7 @@ import {
     Title,
     Update
 } from "./style/emo-home-posts";
-import {Link} from "gatsby";
+import {graphql, Link} from "gatsby";
 import Img from "gatsby-image";
 
 let minutes = 1000 * 60;
@@ -53,4 +53,41 @@ const PostsListingWithFlags = ({data}) => {
     );
 };
 
+export const otherPostsNodeFragment = graphql`
+    fragment otherPostsNodes on MarkdownRemarkEdge {
+      node {
+        id
+        excerpt
+        fields {
+          slug
+        }
+        frontmatter {
+          date(formatString: "DD MMMM, YYYY")
+          update(formatString: "DD MMMM, YYYY")
+          title
+          subtitle
+          featuredImage {
+            childImageSharp {
+              fluid(maxWidth: 500, maxHeight: 250, cropFocus: CENTER) {
+                base64
+                tracedSVG
+                aspectRatio
+                src
+                srcSet
+                srcWebp
+                srcSetWebp
+                sizes
+                originalImg
+                originalName
+                presentationWidth
+                presentationHeight
+              }
+            }
+          }
+        }
+      }
+    }
+`;
+
 export default PostsListingWithFlags;
+

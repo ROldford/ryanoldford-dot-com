@@ -13,37 +13,7 @@ export const query = graphql`
       filter: { frontmatter: { category: { in: ["Publication"] } } }
     ) {
       edges {
-        node {
-          id
-          excerpt
-          fields {
-            slug
-          }
-          frontmatter {
-            date(formatString: "DD MMMM, YYYY")
-            update(formatString: "DD MMMM, YYYY")
-            title
-            subtitle
-            featuredImage {
-              childImageSharp {
-                fluid(maxWidth: 500, maxHeight: 250, cropFocus: CENTER) {
-                  base64
-                  tracedSVG
-                  aspectRatio
-                  src
-                  srcSet
-                  srcWebp
-                  srcSetWebp
-                  sizes
-                  originalImg
-                  originalName
-                  presentationWidth
-                  presentationHeight
-                }
-              }
-            }
-          }
-        }
+        ...otherPostsNodes
       }
     }
   }
