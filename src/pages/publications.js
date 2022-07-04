@@ -2,7 +2,7 @@ import React from "react";
 import { graphql, Link } from "gatsby";
 import Layout from "../components/layout";
 import Img from "gatsby-image";
-import { SinglePost, PostInfo, PreTitle, Title, Subtitle, Update, Freshnew, Excrept, Card, CardColumns }  from "../components/style/emo-home-posts";
+import { SinglePost, PostInfo, PreTitle, Title, Subtitle, Update, Freshnew, Excerpt, Card, CardColumns }  from "../components/style/emo-home-posts";
 
 let minutes = 1000 * 60;
 let hours = minutes * 60;
@@ -32,7 +32,7 @@ export default ({ data }) => {
                                     <PreTitle>{node.frontmatter.category}</PreTitle>
                                     <Title>{node.frontmatter.title}</Title>
                                     <Subtitle>{node.frontmatter.subtitle}</Subtitle>
-                                    <Excrept>{node.excerpt}</Excrept>
+                                    <Excerpt>{node.excerpt}</Excerpt>
                                 </PostInfo>
                             </SinglePost>
                         </Link>
