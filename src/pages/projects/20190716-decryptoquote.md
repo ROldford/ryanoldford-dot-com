@@ -2,11 +2,11 @@
 title: "Decryptoquote"
 subtitle: "Decode cryptoquote puzzles"
 date: "2019-07-16"
-update: "2020-02-18"
-tags: ["python"]
+update: "2021-12-28"
+tags: ["python", "flask", "mongodb", "heroku"]
 category: "Personal"
-project: ""
-demo: ""
+project: "https://github.com/ROldford/decryptoquote"
+demo: "https://decryptoquote.herokuapp.com/"
 featuredImage: "../../img/project/decryptoquote.jpg"
 ---
 
@@ -45,3 +45,7 @@ shell script to make it work on my machine, as well as generate the desired
 corpus files. My next step is to test the solver with the new corpus, checking
 for accuracy and speed. I may work on storing the corpus in a different data
 structure if speed continues to be an issue.
+
+**Update**: I discovered the ["word patterns" strategy](https://inventwithpython.com/hacking/chapter18.html) from [Invent with Python](https://inventwithpython.com/), and applied it to this project. I've had some good results with it, but I've discovered that some puzzles can have multiple solutions using real English words, so I will need to update the code to produce all solutions.
+
+**Update**: Over this holiday, I was able to update my algorithm to produce all solutions for a puzzle, reimplemented the word patterns store to use [MongoDB](https://www.mongodb.com/), designed a REST API for the solver using the [Flask](https://flask.palletsprojects.com/en/2.0.x/) framework, and hosted the webapp using [Heroku](https://www.heroku.com) and [MongoDB Atlas](https://www.mongodb.com/atlas/database). The app is feature complete, but the front end does need some work to make it responsive for any mobile users.
