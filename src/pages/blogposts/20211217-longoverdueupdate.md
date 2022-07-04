@@ -1,6 +1,6 @@
 ---
 title: "Long Overdue Update (September, November, and Half of December)"
-date: "2021-10-16T18:43:35Z"
+date: "2021-12-17T18:43:35Z"
 update: ""
 tags: ["update"]
 category: "blog"
