@@ -60,17 +60,17 @@ const Layout = ({children}) => (
 									<span><a target="_blank"
                                              rel="noopener noreferrer"
                                              href="https://github.com/ROldford">
-											<span className="fab fa-github"></span>
+											<span className="fab fa-github"/>
 										</a></span>
                                     <span><a target="_blank"
                                              rel="noopener noreferrer"
                                              href="https://www.linkedin.com/in/ryan-oldford-b95b4113/">
-											<span className="fab fa-linkedin"></span>
+											<span className="fab fa-linkedin"/>
 									</a></span>
                                     <span><a target="_blank"
                                              rel="noopener noreferrer"
                                              href="https://twitter.com/ryan_oldford">
-										<span className="fab fa-twitter"></span>
+										<span className="fab fa-twitter"/>
 									</a></span>
                                 </SocialList>
                             </h5>
@@ -84,6 +84,7 @@ const Layout = ({children}) => (
                             <LinksList>
                                 <li><Link to={`/about-me/`} activeClassName="active">About Me</Link></li>
                                 <li><Link to={`/employment/`} activeClassName="active">Employment</Link></li>
+                                <li><Link to={`/publications/`} activeClassName="active">Publications</Link></li>
                                 <li><Link to={`/`} activeClassName="active">Projects</Link></li>
                                 <li><Link to={`/blog/`} activeClassName="active">Blog</Link></li>
                             </LinksList>
