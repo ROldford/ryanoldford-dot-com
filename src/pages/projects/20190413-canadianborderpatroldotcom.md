@@ -5,8 +5,8 @@ date: "2019-04-13"
 update: "2019-08-10"
 tags: ["javascript", "react", "gatsby", "podcast", "website"]
 category: "Personal"
-project: "https://github.com/rheajt/canadianborderpatrol"
-demo: "https://canadianborderpatrol.com"
+linkPillTitles: ["Code Repo", "Demo"]
+linkPillHrefs: ["https://github.com/rheajt/canadianborderpatrol", "https://canadianborderpatrol.com"]
 featuredImage: "../../img/project/canadianborderpatrol-dot-com.png"
 ---
 

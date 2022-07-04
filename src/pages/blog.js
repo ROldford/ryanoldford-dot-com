@@ -6,7 +6,7 @@ import {
 	SinglePost,
 	PostInfo,
 	Title,
-	Excrept,
+	Excerpt,
 	Card,
 	CardColumns
 } from "../components/style/emo-home-posts";
@@ -24,7 +24,7 @@ export default ({ data }) => {
 							  />
 							  <PostInfo>
 								  <Title>{node.frontmatter.title}</Title>
-								  <Excrept>{node.excerpt}</Excrept>
+								  <Excerpt>{node.excerpt}</Excerpt>
 							  </PostInfo>
 						  </SinglePost>
 					  </Link>

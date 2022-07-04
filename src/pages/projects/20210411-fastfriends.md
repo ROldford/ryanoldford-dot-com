@@ -5,8 +5,8 @@ date: "2021-04-11"
 update: "2021-04-11"
 tags: ["javascript", "react", "css", "webapp"]
 category: "Hackathon"
-project: "https://github.com/ROldford/fast-friends"
-demo: "https://devpost.com/software/fast-friends"
+linkPillTitles: ["Code Repo", "Demo"]
+linkPillHrefs: ["https://github.com/ROldford/fast-friends", "https://devpost.com/software/fast-friends"]
 featuredImage: "../../img/project/fast-friends.png"
 ---
 

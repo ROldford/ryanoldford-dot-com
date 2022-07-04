@@ -1,10 +1,11 @@
 import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/layout";
-import CodeLink from "../components/code-link";
-import DemoLink from "../components/demo-link";
 import Img from "gatsby-image";
 import { Header, MainPost, PreTitle, Title,Subtitle, Tags, Date, Stats, SocialShare } from "../components/style/emo-post";
+import LinkPill from "../components/link-pill";
+
+const linkPillZip = (a, b) => Array.from(Array(Math.min(b.length, a.length)), (_, i) => [a[i], b[i]])
 
 export default ({ data }) => {
   const post = data.markdownRemark;
@@ -17,8 +18,10 @@ export default ({ data }) => {
 	        <Subtitle>{post.frontmatter.subtitle}</Subtitle>
           <Img fluid={post.frontmatter.featuredImage.childImageSharp.fluid} />
           <div>
-            <CodeLink>{post.frontmatter.project}</CodeLink>
-            <DemoLink>{post.frontmatter.demo}</DemoLink>
+            {linkPillZip(post.frontmatter.linkPillTitles, post.frontmatter.linkPillHrefs)
+                .map((linkPillData) => (
+                    <LinkPill title={linkPillData[0]}>{linkPillData[1]}</LinkPill>
+                ))}
           </div>
         </Header>
         <div
@@ -56,8 +59,8 @@ export const query = graphql`
         subtitle
         tags
         category
-        project
-        demo
+        linkPillTitles
+        linkPillHrefs
         date(formatString: "DD MMMM, YYYY")
         featuredImage {
 					childImageSharp {

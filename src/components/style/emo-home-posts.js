@@ -93,7 +93,7 @@ export const Subtitle = styled.h5(props => ({
 	paddingBottom: "17px",
 }));
 
-export const Excrept = styled.p(props => ({
+export const Excerpt = styled.p(props => ({
   padding: "17px",
   paddingTop: 0,
   a: {
