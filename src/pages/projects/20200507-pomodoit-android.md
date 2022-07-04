@@ -5,8 +5,8 @@ date: "2020-05-07"
 update: "2020-05-07"
 tags: ["java", "android", "mobile app"]
 category: "Personal"
-project: "https://github.com/ROldford/PomoDoIt_android"
-demo: ""
+linkPillTitles: ["Code Repo"]
+linkPillHrefs: ["https://github.com/ROldford/PomoDoIt_android"]
 featuredImage: "../../img/project/pomodoro.jpg"
 ---
 

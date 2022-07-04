@@ -50,7 +50,7 @@ exports.createPages = ({ graphql, actions }) => {
         } else {
           createPage({
             path: node.fields.slug,
-            component: path.resolve(`./src/templates/project-post.js`),
+            component: path.resolve(`./src/templates/other-post.js`),
             context: {
               slug: node.fields.slug
             }

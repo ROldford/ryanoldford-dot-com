@@ -5,8 +5,8 @@ date: "2018-08-09"
 update: "2018-10-19"
 tags: ["python", "script"]
 category: "Personal"
-project: "https://github.com/ROldford/cycle_calendar_generator"
-demo: "https://pypi.org/project/cycle-calendar-generator/"
+linkPillTitles: ["Code Repo", "Demo"]
+linkPillHrefs: ["https://github.com/ROldford/cycle_calendar_generator", "https://pypi.org/project/cycle-calendar-generator/"]
 featuredImage: "../../img/project/cycle-calendar-generator.jpg"
 ---
 

@@ -5,8 +5,8 @@ date: "2020-01-30"
 update: "2020-01-30"
 tags: ["java", "game"]
 category: "Hackathon"
-project: "https://github.com/ROldford/PianoDude/tree/develop"
-demo: ""
+linkPillTitles: ["Code Repo"]
+linkPillHrefs: ["https://github.com/ROldford/PianoDude/tree/develop"]
 featuredImage: "../../img/project/pianodude-gfn-hackathon.jpeg"
 ---
 

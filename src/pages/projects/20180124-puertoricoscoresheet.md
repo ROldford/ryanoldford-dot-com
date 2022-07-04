@@ -5,8 +5,8 @@ date: "2018-01-24"
 update: "2019-01-02"
 tags: ["javascript", "react", "redux", "webapp"]
 category: "Personal"
-project: "https://github.com/ROldford/puerto-rico-scoresheet"
-demo: "https://roldford.github.io/puerto-rico-scoresheet/"
+linkPillTitles: ["Code Repo", "Demo"]
+linkPillHrefs: ["https://github.com/ROldford/puerto-rico-scoresheet", "https://roldford.github.io/puerto-rico-scoresheet/"]
 featuredImage: "../../img/project/puerto-rico-scoresheet.png"
 ---
 

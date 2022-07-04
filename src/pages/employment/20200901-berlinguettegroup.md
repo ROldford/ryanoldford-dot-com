@@ -5,8 +5,8 @@ date: "2020-09-01"
 update: "2021-08-19"
 tags: ["python", "hardware", "chemistry"]
 category: "Co-op"
-project: ""
-demo: ""
+linkPillTitles: []
+linkPillHrefs: []
 featuredImage: "../../img/project/ada.jpeg"
 ---
 
