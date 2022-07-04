@@ -5,8 +5,8 @@ date: "2021-12-17"
 update: "2021-12-17"
 tags: ["typescript", "express"]
 category: "Academic"
-project: ""
-demo: ""
+linkPillTitles: []
+linkPillHrefs: []
 featuredImage: "../../img/project/cpsc-310-insight.png"
 ---
 

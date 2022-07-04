@@ -5,8 +5,8 @@ date: "2021-12-20"
 update: "2021-12-20"
 tags: ["ux", "usability", "axure"]
 category: "Academic"
-project: ""
-demo: ""
+linkPillTitles: []
+linkPillHrefs: []
 featuredImage: "../../img/project/cpsc344-overview-header.png"
 ---
 

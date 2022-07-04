@@ -5,8 +5,8 @@ date: "2021-06-16"
 update: "2021-06-16"
 tags: ["java", "swing", "oracle-db"]
 category: "Academic"
-project: ""
-demo: ""
+linkPillTitles: []
+linkPillHrefs: []
 featuredImage: "../../img/project/regional-vaccine-manager.jpg"
 ---
 

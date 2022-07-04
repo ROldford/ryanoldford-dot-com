@@ -5,8 +5,8 @@ date: "2022-07-04"
 update: "2022-07-04"
 tags: ["typescript", "express"]
 category: "Publication"
-project: "https://www.google.com"
-demo: "https://www.reddit.com/"
+linkPillTitles: ["Article Page", "Article PDF"]
+linkPillHrefs: ["https://github.com/ROldford/puerto-rico-scoresheet", "https://roldford.github.io/puerto-rico-scoresheet/"]
 featuredImage: "../../img/project/cpsc-310-insight.png"
 ---
 
