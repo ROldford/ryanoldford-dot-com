@@ -2,7 +2,7 @@
 title: "Berlinguette Group"
 subtitle: "Ada Project - Python developer"
 date: "2020-09-01"
-update: "2021-08-19"
+update: "2022-05-28"
 tags: ["python", "hardware", "chemistry"]
 category: "Co-op"
 linkPillTitles: []
@@ -33,3 +33,7 @@ As a team member, I am responsible for
  - contributing to final project report
  
  (Header image by [UBC Quantum Matter Institute](https://qmi.ubc.ca/), found [here](https://twitter.com/QMI_UBC/status/1067893708962488321?s=20))
+ 
+---
+
+**Update**: A journal article detailing this project has been [published in Discovery Digital](/publications/20220528-a-self-driving-laboratory). 
