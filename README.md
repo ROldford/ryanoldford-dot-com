@@ -20,8 +20,8 @@ or
 ## Adding content
 * Filenames should follow `<datestamp>-<pagename>.md` format.
 * All pages should have a representative photo
-* New projects:
-    * Stored in `/src/pages/projects` 
+* New projects/publications/employment:
+    * Stored in `/src/pages/...` as appropriate 
     * Photo in `src/img/project`
     * Follow format of existing projects, especially header data
         * Keep update placeholder in header, 
