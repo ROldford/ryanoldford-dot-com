@@ -6,7 +6,7 @@ update: "2021-12-28"
 tags: ["python", "flask", "mongodb", "heroku"]
 category: "Personal"
 linkPillTitles: ["Code Repo", "Demo"]
-linkPillHrefs: ["https://github.com/ROldford/decryptoquote", "https://decryptoquote.herokuapp.com/"]
+linkPillHrefs: ["https://github.com/ROldford/decryptoquote", "https://decryptoquote.onrender.com/"]
 featuredImage: "../../img/project/decryptoquote.jpg"
 ---
 
