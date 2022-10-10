@@ -1,10 +1,10 @@
 ---
 title: "3 Month Update"
-date: "2022-07-05T19:37:41Z"
+date: "2022-10-10T19:43:38Z"
 update: ""
 tags: ["update"]
 category: "blog"
-featuredImage: "../../img/post/graduation.jpg"
+featuredImage: "../../img/post/ready-set-bet.jpg"
 ---
 
 Update time! It's been 3 months, so I actually have some stuff to talk about.
