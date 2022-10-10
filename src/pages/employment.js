@@ -10,7 +10,7 @@ export const query = graphql`
   query {
     allMarkdownRemark(
       sort: { fields: [frontmatter___update], order: DESC }
-      filter: { frontmatter: { category: { in: ["Co-op"] } } }
+      filter: { frontmatter: { category: { in: ["Co-op", "Full Time", "Part Time"] } } }
     ) {
       edges {
         ...otherPostsNodes
